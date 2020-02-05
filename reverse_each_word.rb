@@ -13,7 +13,7 @@ def reverse_each_word(string)
       i = 0
       array2.each do |word|
         result2 << word 
-        if i < array2.size 
+        if i < array2.size-1
           result2 << " "
         end 
       end 
