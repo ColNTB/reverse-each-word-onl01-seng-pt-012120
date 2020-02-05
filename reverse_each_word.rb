@@ -16,6 +16,7 @@ def reverse_each_word(string)
         if i < array2.size-1
           result2 << " "
         end 
+        i+=1 
       end 
       return result2
 end 
