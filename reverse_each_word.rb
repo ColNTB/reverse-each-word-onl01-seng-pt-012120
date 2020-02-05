@@ -14,7 +14,7 @@ def reverse_each_word(string)
       array2.each do |word|
         result2 << word 
         if i < array2.size 
-          result 2 << " "
+          result2 << " "
         end 
       end 
       return result2
