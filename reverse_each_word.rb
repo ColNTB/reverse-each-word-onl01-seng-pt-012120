@@ -10,8 +10,12 @@ def reverse_each_word(string)
       end 
       array = result.split(" ")
       array2 = array.reverse 
+      i = 0
       array2.each do |word|
         result2 << word 
+        if i < array2.size 
+          result 2 << " "
+        end 
       end 
       return result2
 end 
